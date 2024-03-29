@@ -26,7 +26,7 @@ class Playground extends Command
      */
     public function handle()
     {
-        foreach (range(1, 10) as $i) {
+        foreach (range(1, 200) as $i) {
             TestingReverbEvent::dispatch();
         }
     }

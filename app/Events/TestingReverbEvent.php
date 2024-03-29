@@ -30,7 +30,7 @@ class TestingReverbEvent  implements ShouldBroadcast
     public function broadcastOn(): array
     {
         return [
-            new PrivateChannel('testPrivateChannel'),
+            new Channel('testPrivateChannel'),
         ];
     }
 }

@@ -17,7 +17,7 @@ class CountReverb extends Component
     public function getListeners()
     {
         return [
-            "echo-private:testPrivateChannel,TestingReverbEvent" => 'add',
+            "echo:testPrivateChannel,TestingReverbEvent" => 'add',
         ];
     }
 
